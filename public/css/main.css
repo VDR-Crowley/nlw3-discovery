@@ -1,1 +1,23 @@
-/* Css da paige */
+/* Css da page */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+body, input, button, textarea {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1; /*Altura da linha*/
+  font-family: 'Nunito', sans-serif;
+}
+
