@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localize um orfanato | Happy</title>
+
+    <!-- Css da biblioteca leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <!-- icone -->
+    <link rel="icon" href="./public/images/logo-icon.png" />
+
+    <!-- CSS da pagina -->
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link rel="stylesheet" href="./public/css/page-orphanage.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div id="page-orphanage">
+      <aside class="animate-right">
+        
+      </aside>
+
+      <main>
+        <div id="orphanage-details">
+          <img src="./public/images/home.jpg" alt="Lar das meninas">
+
+          <div id="images">
+            <button active type="button">
+              <img src="./public/images/home.jpg" alt="Lar das meninas">
+            </button>
+            
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Lar das meninas">
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Lar das meninas">
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Lar das meninas">
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Lar das meninas">
+            </button>
+
+            <button type="button">
+              <img src="./public/images/home.jpg" alt="Lar das meninas">
+            </button>
+          </div>
+
+          <div id="orphanage-details-content">
+            <h1>Lar das meninas</h1>
+
+            <p>
+              Presta assistência a crianças de 06 e 15 anos que se encontre em situação de risco e/ou vulnerabilidade socia.
+            </p>
+          
+
+            <div id="map-container">
+              <div id="mapid"></div>
+              <footer>
+                <a href="">Ver rota no Google Maps</a>
+              </footer>
+            </div>
+
+          <hr>
+
+          <h2>Instruções para visitas</h2>
+
+          <p>Venha como se sentir a vontade e traga muito amor e paciência para dar</p>
+
+          <div class="open-details">
+            <div id="hour">
+              <img src="./public/images/clock.svg" alt="Horarios">
+              Horários de visitas Das 8hs ate 18hs
+            </div>
+            <div id="open-on-weekends">
+              <img src="./public/images/info.svg" alt="Informações">
+              Atendemos
+              aos
+              fim de semana
+            </div>
+          </div>
+          
+          <button class="primary-button" type="button">
+            <img src="./public/images/whatsapp.svg" alt="Chamar no whatsapp">
+            Entrar em contato
+          </button>        
+        </div>
+      </div>
+      </main>
+    </div>
+
+    <script src="public/scripts/page-orphanage.js"></script>
+  </body>
+</html>
