@@ -1,6 +1,7 @@
 // importa pacote
 const express = require('express');
 const path = require('path');
+const pages = require('./pages.js');
 
 // iniciando o express
 const server = express()
@@ -14,9 +15,10 @@ server
   .set('view engine', 'hbs')
 
   // criar um rota
-  .get('/', (request, response) => {
-    return response.render('index')
-  })
+  .get('/', pages.index)
+  .get('/orphanage', pages.orphanage)
+  .get('/orphanages', pages.orphanages)
+  .get('/create-orphanage', pages.createOphanage)
 
 // ligar o servidor 
 server.listen(5500)
