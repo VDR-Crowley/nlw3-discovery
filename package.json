@@ -4,6 +4,7 @@
   "description": "** Projeto em andamento **",
   "main": "index.js",
   "dependencies": {
+    "expres": "0.0.5",
     "express": "^4.17.1"
   },
   "devDependencies": {},
