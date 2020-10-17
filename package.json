@@ -4,12 +4,13 @@
   "description": "** Projeto em andamento **",
   "main": "index.js",
   "dependencies": {
-    "expres": "0.0.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
