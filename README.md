@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src="happy1.png" width="100%">
+  <img alt="Happy" src=".github/happy1.png" width="100%">
 </p>
 
 ---
@@ -32,11 +32,16 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ```npm install sqlite-async```
 
+
 ## 💻 Projeto
 
 O Happy é um projeto que visa facilitar visitas aos orfanatos próximos a você. 
 
 Este é um projeto desenvolvido durante a **[Next Level Week](https://nextlevelweek.com/)**, trilha discovery, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 12 a 18 de Outubro de 2020.
+ 
+ 
+ *Ligar o servidor*
+```npm start``` 
 
 ---
 
