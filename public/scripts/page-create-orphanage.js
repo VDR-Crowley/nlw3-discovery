@@ -85,3 +85,10 @@ function toggleSelect(event) {
   // pega o valor de data-value
   input.value = button.dataset.value
 }
+
+// desafio a ser feito
+function validate(event) {
+  // validar se lat e lng foram preenchidos
+
+  //event.preventDefault()
+}

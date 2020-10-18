@@ -51,7 +51,7 @@
       </aside>
 
       <main class="animate-appear with-sidebar">
-        <form action>
+        <form action="save-orphanage" method="post" onsubmit="validate(event)">
           <!-- Inicio form -->
 
           <fieldset>
@@ -97,6 +97,7 @@
                     name="images"
                     placeholder="cole um link da foto aqui"
                     required
+                    type="url"
                   />
                   <span onclick="deleteField(event)">
                     <img src="/images/x.svg" alt="Remover foto" />
